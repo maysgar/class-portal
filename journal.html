@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>My personal Page</title>
+    <meta charset="UTF-8">
+	<meta name="description" content="Personal page for ATLS 4630 - Web Front End Development">
+	<meta name="keywords" content="HTML,CSS, JS">
+	<meta name="author" content="Ismael Garrido Mansoa">
+    <link rel="stylesheet" href="./STYLE/style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.1/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='./IMAGES' rel='stylesheet'>
+    <script src="Script1.js"></script>
+</head>
+<body>
+        
+        <div class="container">
+            <a href="#" data-target="nav-mobile" class="sidenav-trigger button-collapse">
+                    <i class="material-icons blue-grey-text darken-4 large">menu</i>
+            </a>
+        </div>
+
+<ul id="nav-mobile" class="sidenav blue-grey">
+        <li>
+        <a href="index.html">
+            <i class="material-icons">person</i>
+            <span class="text">Profile</span>
+        </a>
+    </li>
+    <li>
+        <a href="labs.html">
+            <i class="material-icons">school</i>
+                <span class="text">Class Labs</span>
+        </a>
+    </li>
+    <li>
+        <a href="projects.html">
+                <i class="material-icons">build</i>
+                <span class="text">Projects</span>
+        </a>
+    </li>
+    <li>
+        <a href="journal.html">
+            <i class="material-icons">assignment</i>
+            <span class="text">Project Journal</span>
+            </a>
+        </li>
+    
+        </ul>
+
+<ul class="sidenav sidenav-fixed blue-grey hide-on-small-only">
+        <li>
+        <a href="index.html">
+            <i class="material-icons">person</i>
+            <span class="text">Profile</span>
+        </a>
+    </li>
+    <li>
+        <a href="labs.html">
+                <i class="material-icons">school</i>
+                <span class="text">Class Labs</span>
+        </a>
+    </li>
+    <li>
+        <a href="projects.html">
+                <i class="material-icons">build</i>
+                <span class="text">Projects</span>
+        </a>
+    </li>
+    <li>
+        <a href="journal.html">
+            <i class="material-icons">assignment</i>
+            <span class="text">Project Journal</span>
+            </a>
+        </li>
+    </ul>
+
+<nav-section class="nav_first">
+    <div class="main">
+        <h2 class="title">Project Journal:</h2>
+        <h4 class="journal_milestone">Milestone 1: </h4>
+
+    <div class="journal_text">
+        
+        For my web portal, I will be implementing a simple and clear design. The webpage
+        will follow the material design standards and will be implemented
+        using "materialize" framework.<br><br>
+        For desktop and laptop visualization, there will always be a left navigation bar, displaying the different webpages accessible from the portal.<br><br>
+        Therefore, the different sections of the portal (project journal, class labs and
+        projects) will all be different html webpages that can be accessed from the profile page.<br><br>
+        The profile page will consist on scrollable content where different information
+        about me will be displayed (introduction, education, hobbys, experience, abilities...).<br><br>
+        Regarding the different interface for tablets and phones, the navigation bar will be hidden by default, with a button to display it when pressed by the user.<br><br>
+        The rest of the elements will adapt in size for the smaller displays.<br><br>
+        The colors used will be light blues, grey and white.<br><br><br>
+    </div>
+
+    <h4 class="journal_milestone">Milestone 2: </h4>
+
+    <div class="journal_text">
+        
+        Regarding the creation of the portal, I did have a rought time creating the portal. Because I was so busy with other courses too, I had little time to include everything
+        I wanted to have on my portal.<br><br>
+        My first step was to put a title, my profile picture, and some simple text on the html page. That was easy to implement and it did not take me a lot of time.<br><br>
+        After that, I added the left side navigation bar with the different sections and pages of the portal. This took me a lot of time, since sidebars are hidden by default, and
+        I wanted to have it there at all times. Also, because of the sidebar, I also had to move the text and content in the page to the right side, in order to be in the middle, and
+        no overflown by the navigation bar. It also took some time to set the icons with the links inside the navigation bar.<br><br>
+        Then, I added the footer, which did not take me too much time since I used a simple one with just some links in it.<br><br>
+        After this, I decided it was a good idea to present my personal information in hoverable cards, which are a "Materialize" framework element; and also, I added an iframe containing
+        a video a made.<br><br>
+        After having all this, I proceeded to make the page responsive, which I thought it was gonna be very straight-forward, since the framework I'm using does really good on adapting
+        content to different devices. However, my idea was to hide the left navigation bar on mobile phones, and replace it with a menu button that would display it. This was probably the
+        hardest part. I kept trying to reajust, make a section on my css code for the smaller screen displays, but nothing seemed to work. I was finally able to implement it by having a
+        separate but similar navigation bar that would only show up when targeted by the menu button on phones.<br><br>
+        Then, my next step was going to center all the text and content for mobile phone screens, as in this case, the content is not "moved" to the right because the navigation bar is
+        hidden by default, so there is a lot more screen space. I tried everything I could, but the default css code "Materialize" has really gave me a hard time and I could not
+        change it in any of the ways.<br><br>
+        To end, I put my code through the HTML and CSS validator, which also had a negative effect on my code, since I had to change my navigation bar content, on which I had a
+        (div -> a) section, which I had to change to (ul -> li -> a), and I also had to change my "&lt;icon&gt;" by "&lt;i&gt;" that made my CSS code change and, again because of the "Materialize"
+        default set up and values, I could not change to make the elements on the navigation bar have the right size, and make the icon hover to white color.<br><br>
+
+
+    </div>
+
+
+    </div>
+</nav-section>
+    
+</div>
+
+<footer class="page-footer blue-grey darken-2">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Useful links</h5>
+              <ul>
+                    <li><a class="white-text" href="https://www.facebook.com">
+                        <i class="fa fa-facebook white-text"></i>
+                        Facebook
+                    </a></li>
+                    <li><a class="white-text" href="https://www.twitter.com">
+                        <i class="fa fa-twitter white-text"></i>
+                        Twitter
+                    </a></li>
+                    <li><a class="white-text" href="https://www.instagram.com">
+                        <i class="fa fa-instagram white-text"></i>
+                        Instagram
+                    </a></li>
+                    <li><a class="white-text" href="https://www.github.com/maysgar">
+                        <i class="fa fa-github white-text"></i>
+                        Github
+                    </a></li>
+              </ul>
+              </div>
+          </div>
+        </div>
+        <div class="footer-copyright blue-grey darken-3">
+          <div class="container">
+          © 2018 Copyright Text
+          <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+          </div>
+        </div>
+      </footer>
+
+
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.1/js/materialize.min.js"></script>
+      <script src="Script1.js"></script>
+     
+</body>
+</html> 
+

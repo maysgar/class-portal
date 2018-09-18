@@ -1,0 +1,122 @@
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #D9D9D9;
+}
+
+.title{
+    text-align:center;
+}
+
+.main_description{
+    text-align:center;
+    margin-top: 4%;
+    font-size: 70%;
+}
+
+.profile_text{
+    margin-top: 60%;
+}
+
+.profile_exp{
+    margin-top: 20%;
+}
+
+.nav_first{
+    background-color: #D9D9D9;
+}
+
+.nav_second{
+    background-color: #284B63;
+}
+
+
+.sidenav {
+    overflow-x: hidden;
+    padding-top: 20px;
+} 
+
+.sidenav a{
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #242424;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+a icon{
+    margin: 2%;
+}
+
+.video_div{
+    position: relative;
+    margin: 8%;
+    width: 85%;
+}
+
+.video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.main {
+    margin-left: 20%; 
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+.profile{
+    margin-left: 20%;
+}
+
+.page-footer{
+    margin-left: 20%;
+}
+
+.card-panel{
+    width: 90%;
+}
+
+.cosas{
+    margin-left: 10%;
+}
+
+.morecosas{
+    margin-left: 5%;
+}
+
+ @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+@media screen and (max-width: 800px) {
+    .page-footer {
+        margin-left: 0% !important;
+    }
+}
+
+
+
+.space_aux{
+    margin-top: 80%;
+}
+
+.journal_text{
+    text-align: left;
+    margin-left: 5%;
+    font-size: 80%;
+}
+
+.journal_milestone{
+    text-align: left;
+    margin-left: 5%;
+}
+
