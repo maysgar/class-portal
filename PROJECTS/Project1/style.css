@@ -1,0 +1,174 @@
+@font-face {
+    font-family: 'Avenir Next';
+    src: url("http://www.yoursite.com/fonts/Avenir_Next.otf"); /* File to be stored at your site */
+}
+
+
+body { 
+    font-family: "Avenir Next" !important;
+    font-weight: bold;
+    background-color: #D9D9D9;
+}
+
+
+.nav-wrapper{
+    background-color: #D9D9D9 !important;
+    font-weight: bold;
+}
+
+
+#android_logo{
+    width: 20%;
+}
+
+#oneplus_main{
+    margin-top: 2%;
+}
+
+#oneplus_main_image{
+    width: 61%;
+}
+
+
+#first_title{
+    margin-top: 10%;
+    font-weight: bold;
+}
+
+#fourth_title{
+    margin-top: 7%;
+    font-weight: bold;
+}
+
+#first_title_son{
+    font-size: 150%;
+}
+
+#sec_title_son{
+    font-size: 150%;
+}
+
+#hidden_text{
+    font-size: 200%;
+    display: none;
+}
+
+#arrow_icon{
+    width: 80%;
+    margin-top: 650%;
+}
+
+#arrow_icon2{
+    width: 80%;
+    margin-top: 730%;
+    margin-left: 80%;
+}
+
+#arrow_icon3{
+    margin-top: -30%;
+    width: 35%;
+}
+
+#arrow_icon4{
+    width: 80%;
+    margin-top: 600%;
+}
+
+#oneplus_camera{
+    margin-top: 10%;
+}
+
+#oneplus_camera_pic{
+    width: 80%;
+}
+
+.charge_pic_logo{
+    width: 110%;
+}
+
+.charge_pic{
+    width: 120%
+
+}
+
+
+#second_title{
+    margin-top: 15%;
+}
+
+#third_title{
+    margin-top: 15%;
+}
+
+#dash_charge_logo{
+    margin-top: 18%;
+}
+
+#battery_pic{
+    width: 25%;
+}
+
+#third_title_son{
+    font-size: 150%;
+    margin-top: 0% !important;
+}
+
+#oneplus_red{
+    margin-top: 10%;
+}
+
+.oneplus_red_left{
+    font-size: 150%;
+    margin-left: 30%;
+}
+
+#oneplus_red_pic{
+    width: 100%;
+}
+
+#hidden_specs{
+    font-size: 150%;
+    margin-left: 30%;
+    display: none;
+}
+
+#circle_icon{
+    font-size: 160%;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+/* BUTTON TO GO THE TOP */
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+  }
+  
+
+#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    margin-left: 2%;
+    z-index: 99;
+    font-size: 18px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}
+  
+#myBtn:hover {
+    background-color: #555;
+}
+
+.page-footer{
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    width: 100%;
+}
+
+
+/* BUTTON TO GO THE TOP */

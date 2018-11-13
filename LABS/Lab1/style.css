@@ -1,0 +1,54 @@
+
+
+#intro{
+    font-family: Impact, Charcoal, sans-serif;
+    font-size: 300%;
+}
+
+#count{
+  text-align: center;
+  font-size: 60px;
+  margin-top: 5%;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+body{
+    background-color: grey;
+   }
+
+.buttons{
+    background-color: #e7e7e7;
+    color: black;
+    padding: 10px 20px;
+    font-size: 20px;
+    border-radius: 8px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.buttons:hover {
+    background-color: #008CBA;
+    color: white;
+}
+
+.buttons:active {
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+  }
+
+
+#main{
+    margin-top: 4%;
+    text-align: center;
+}
+
+#center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    margin-bottom: 2%;
+} 
+
+#imagePop{
+    text-align: center;
+}

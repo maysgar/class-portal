@@ -1,0 +1,52 @@
+
+#intro{
+    font-size: 400%;
+    font-weight: bold;
+
+}
+
+#main{
+    margin-top: 4%;
+    text-align: center;
+}
+
+#count{
+  text-align: center;
+  font-size: 60px;
+  margin-top: 5%;
+  font-family: Impact, Charcoal, sans-serif;
+}
+
+body{
+    background-color: grey;
+}
+
+.pokeDesc{
+    font-size: 140%;
+}
+
+#firstGen{
+    font-weight: bold;
+    font-size: 300%;
+    margin-top: 5%;
+}
+
+#center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1%;
+    margin-bottom: 2%;
+} 
+
+#pokeImage, #poke2Image, #poke3Image, #poke4Image, #poke5Image, #poke6Image{
+    width: 40%;
+}
+
+#pokeName, #poke2Name, #poke3Name, #poke4Name, #poke5Name, #poke6Name{
+    font-size: 130%;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+

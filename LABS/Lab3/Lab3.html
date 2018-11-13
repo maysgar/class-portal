@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lab 3</title>
+    <meta charset="UTF-8">
+	<meta name="description" content="Laboratory 3 for ATLS 4630 - Web Front End Development">
+	<meta name="keywords" content="HTML,CSS, JS">
+	<meta name="author" content="Ismael Garrido Mansoa">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script> -->
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link href='./IMAGES' rel='stylesheet'>
+</head>
+
+<!-- Create a web page using jQuery. Your page should use jQuery to do the following:
+
+1) Select, filter, and manipulate elements on the page in at least three different ways
+2) Use an animation effect
+****** Your jQuery should be in an external js file. ****** -->
+
+
+<body>
+
+    <div id="main">
+                
+            <h2 id="intro">Champions League Final Countdown</h2>
+
+            <img src="IMAGES/champions.png" alt="champions league" id="center">
+
+
+    <!--Manipulate HTML property-->
+    <button class="buttons" onclick="startCounter()">Start the counter</button>
+
+    <!--Manipulate HTML property-->
+    <button class="buttons" id="stopCounter">Stop the counter</button>
+
+    <!-- Manipulate CSS property -->
+    <button class="buttons" id="darkMode">Dark mode</button>
+
+    <!-- Response to event listener 1 -->
+    <button class="buttons" id="button_tickets">Buy tickets</button>
+
+    <!-- Response to event listener 2 -->
+    <button class="buttons" id="real_madrid">Future winner</button>
+
+    </div>
+
+    <div id="flip">Next game</div>
+    <div id="panel">Hoffenheim VS Manchester City <br><br> 10/02/2018 <br><br> 10:55 am</div>
+
+    <p id="demo"></p>
+
+    <p id="count"></p>
+
+    <p id="imagePop"></p>
+    
+        
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
+

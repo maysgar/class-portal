@@ -103,7 +103,19 @@ a icon{
     }
 }
 
+.lab_links{
+    text-align: center;
+    margin-left: 55%;
+    font-size: 150%;
+    text-decoration: underline;
+}
 
+#AndroTech_link{
+    text-align: center;
+    font-size: 150%;
+    margin-left: 30%;
+    text-decoration: underline;
+}
 
 .space_aux{
     margin-top: 80%;
@@ -120,3 +132,12 @@ a icon{
     margin-left: 5%;
 }
 
+.onePlusImages{
+    text-align: center;
+    width: 96%;
+    margin-bottom: 5%;
+}
+
+.lab_5_desc{
+    margin-left: 30%;
+}

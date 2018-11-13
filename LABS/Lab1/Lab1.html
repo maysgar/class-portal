@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Lab 1</title>
+    <meta charset="UTF-8">
+	<meta name="description" content="Laboratory 1 for ATLS 4630 - Web Front End Development">
+	<meta name="keywords" content="HTML,CSS, JS">
+	<meta name="author" content="Ismael Garrido Mansoa">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <link href='./IMAGES' rel='stylesheet'>
+</head>
+
+    <!-- Lab 1: Create a web page that uses JavaScript to interact with the DOM in the following ways:
+
+    1) manipulate at least one CSS property through the DOM
+    2) manipulate at least one DOM property that is NOT a CSS property
+    3) responds to at least two different types of events using event listeners(using addEventListener()).
+    ****** Your JavaScript should be in a function in an external js file ******* -->
+
+
+<body>
+
+<div id="main">
+<h2 id="intro">Champions League Final Countdown</h2>
+
+
+<img src="IMAGES/champions.png" alt="champions league" id="center">
+
+
+    <!--Manipulate HTML property-->
+    <button class="buttons" onclick="startCounter()">Start the counter</button>
+
+    <!--Manipulate HTML property-->
+    <button class="buttons" onclick="stopCounter()">Stop the counter</button>
+
+    <!-- Manipulate CSS property -->
+    <button class="buttons" onclick="darkMode()">Dark mode</button>
+
+    <!-- Response to event listener 1 -->
+    <button class="buttons" id="button_tickets">Buy tickets</button>
+
+    <!-- Response to event listener 2 -->
+    <button class="buttons" id="real_madrid">Future winner</button>
+
+</div>
+
+
+    <p id="demo"></p>
+
+    <p id="count"></p>
+
+    <p id="imagePop"></p>
+
+</body>
+</html>

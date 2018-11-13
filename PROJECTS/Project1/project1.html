@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>My personal Page</title>
+    <meta charset="UTF-8">
+	<meta name="description" content="Interactive narrative website for ATLS 4630 - Web Front End Development">
+	<meta name="keywords" content="HTML,CSS, JS">
+	<meta name="author" content="Ismael Garrido Mansoa">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.1/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <link href='./IMAGES' rel='stylesheet'>
+</head>
+<body>
+
+<!-- Arrow icon to scroll to next section: https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_animate_smoothscroll -->
+<!-- Idea for Dash charge fast charging: https://www.w3schools.com/jquery/tryit.asp?filename=tryjquery_eff_animate_progressbar -->
+
+<div class="navbar-fixed" id="nav_bar">
+<nav>
+    <div class="nav-wrapper grey darken-1">
+    <ul>
+      <li><a href="#"><img class="materialboxed" id="android_logo" alt="logo_page" src="IMAGES/androidlogo.png"></a></li>
+      <li><a href="#" class="brand-logo">AndroTech</a></li>
+    </ul>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="sass.html">Reviews</a></li>
+        <li><a href="badges.html">Contact</a></li>
+      </ul>
+    </div>
+</nav>
+</div>
+
+<!-- First page -->
+<div class="row">
+
+    <div data-aos="fade-right" class="col s6 center" id="first_title">
+        <h2 class="profile_text title"><b>OnePlus 6T</b></h2>
+        <p id="first_title_son">The speed you need</p>
+        <p class="red-text text-darken-4" id="hidden_text">Scroll down to check it out!<br> <i class="large material-icons" id="scroll_mat">expand_more</i></p>
+        
+
+    </div>
+
+    <div data-aos="fade-left" class="col s5" id="oneplus_main">
+        <img id="oneplus_main_image" alt="oneplus_main" src="IMAGES/oneplus_intento.png">
+    </div>
+
+    <div class="col s1">
+            <img src="IMAGES/arrow.png" id="arrow_icon" alt="arrow">
+        </div>
+
+</div>
+
+
+<!-- Second page -->
+<div class="row">
+
+
+        <div class="col s1">
+                <img src="IMAGES/arrow.png" id="arrow_icon2" alt="arrow">
+        </div>
+
+        <div data-aos="fade-up-right" class="col s6 center" id="second_title">
+            <h1 class="profile_text title"><b>Camera</b></h1>
+            <p id="sec_title_son">Capture in not time<br>16MP + 20MP high res<br><br>Take clearer photos with Optical Image Stabilization<br><br><u>
+            <a href="#" class="black-text">Learn more</a></u>
+            </p>
+        </div>
+    
+        <div data-aos="fade-up-left" class="col s5" id="oneplus_camera">
+            <img id="oneplus_camera_pic" alt="oneplus_camera" src="IMAGES/camaraOneplus2.png">
+        </div>
+    
+    </div>
+
+
+
+<!-- Third page -->
+<div class="row">
+    
+        <div class="col s3 offset-s1" id="dash_charge_logo">
+                <img data-aos="zoom-in-right" class="charge_pic_logo" alt="dash_charge_logo" src="IMAGES/dash_charge_logo.jpg">
+                <img data-aos="zoom-in-left" class="charge_pic" alt="dash_charger" src="IMAGES/dashcharger.png">
+
+        </div>
+
+        <div class="col s6 offset-s1 center" id="third_title">
+                <h2 data-aos="zoom-in-up" class="profile_text title">A day's power in <br> half an hour</h2>
+
+                <img data-aos="flip-up" id="battery_pic" alt="battery" src="IMAGES/battery.png">
+
+                <p data-aos="zoom-in-up" id="third_title_son">
+                    Our exclusive technology sets a new<br>
+                    benchmark for fast charging solutions. A<br>
+                    quick 30-minute charge swiftly repleishes<br>
+                    the battery of your OnePlus 6 to give you<br>
+                    enough power for the day.
+                </p>
+        </div>
+
+        <div class="col s2 offset-s11">
+                <img src="IMAGES/arrow.png" id="arrow_icon3" alt="arrow">
+        </div>
+
+    
+    </div>
+
+
+<!-- Fourth page -->
+<div class="row">
+
+        <div class="col s6 center red-text text-darken-4" id="fourth_title">
+            <p data-aos="zoom-in-right" class="left-align oneplus_red_left">
+            Snapdragon™ 845 Qualcomm®<br>
+            Optic AMOLED 6.28" Display<br>
+            Up to 8 GB RAM & 256 GB Storage<br>
+            </p>
+
+            <p data-aos="zoom-in-right" class="left-align black-text oneplus_red_left">
+                Still not convinced? <i class="large material-icons" id="circle_icon">add_circle</i>
+            </p>
+
+            <p data-aos="zoom-in-right" id="hidden_specs" class="left-align">
+                Headphone Jack. Still here<br>
+                USB - C. Fastest transfers<br>
+                Bottom-facing speaker<br>
+                Dual nano-SIM slot<br>
+                Unlock options: Fingerprint,<br>
+                Face Unlock<br>
+            </p>
+            
+        </div>
+
+    
+        <div data-aos="zoom-out-left" class="col s5 center" id="oneplus_red">
+            <img id="oneplus_red_pic" alt="oneplus_red" src="IMAGES/oneplus_red.png">
+        </div>
+    
+        <div class="col s1">
+                <img src="IMAGES/arrow.png" id="arrow_icon4" alt="arrow">
+        </div>
+    
+</div>
+
+<button class="grey darken-1 white-text" id="myBtn" title="Go to top">Top</button>
+
+
+
+<footer class="page-footer grey darken-1">
+        <div class="container">
+          <div class="row">
+            <div class="col l6 s12">
+              <h5 class="white-text">Checkout our latest updates</h5>
+              <p class="grey-text text-lighten-4">AndroTech is an objective smartphone review webpage, showing the user in an Interactive way his potential new device</p>
+            </div>
+            <div class="col l4 offset-l2 s12">
+              <h5 class="white-text">Other devices</h5>
+              <ul>
+                <li><a class="grey-text text-lighten-3" href="#!">Oneplus 5T</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Oneplus 5</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Oneplus 3T</a></li>
+                <li><a class="grey-text text-lighten-3" href="#!">Oneplus 3</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="footer-copyright grey darken-2">
+          <div class="container">
+          © 2018 AndroTech Protected
+          <a class="grey-text text-lighten-4 right" href="#!">Contact us</a>
+          </div>
+        </div>
+      </footer>
+
+      <script src="script.js"></script>
+
+</body>
+</html>

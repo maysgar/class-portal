@@ -1,0 +1,199 @@
+
+.title-des{
+    font-size: 120%;
+}
+
+.text-bold{
+    font-weight: bold;
+}
+
+.join{
+    width: 15%; 
+    margin-top: 1%;
+}
+
+#names{
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+
+#flecha{
+    margin-top: 3%;
+}
+
+.title-first{
+    margin-top: 10%;
+}
+
+.day-pages{
+    margin-left: 5%;
+}
+
+#suggestions{
+    width: 50%;
+    margin-top: 10%;
+    margin-bottom: 20%;
+    margin-left: 22%;
+}
+
+#table-suggestions{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 10%;
+    margin-bottom: 22%;
+}
+
+#signin, #signout{
+    width: 12%;
+}
+
+#user_authenticate{
+    margin-top: 2%;
+}
+
+#button-sug, #button-posted{
+    margin-top: 1%;
+    width: 16%;
+}
+
+/* Always set the map height explicitly to define the size of the div
+       * element that contains the map. */
+       #map {
+        height: 30%;
+        width: 25%;
+        float: left;
+        margin-left: 6%;
+      }
+
+      #map2 {
+        height: 30%;
+        width: 25%;
+        float: left;
+        margin-left: 6%;
+      }
+
+      #map3 {
+        height: 30%;
+        width: 25%;
+        float: left;
+        margin-left: 6%;
+      }
+
+      #map4 {
+        height: 35%;
+        width: 35%;
+        float: left;
+        margin-top: 1%;
+        margin-left: 1%;
+        margin-right: 10%;
+        margin-bottom: 2%;
+      }
+
+      #map5 {
+        height: 35%;
+        width: 35%;
+        float: left;
+        margin-top: 1.5%;
+        margin-left: 9.7%;
+        margin-right: 10%;
+        margin-bottom: 10%;
+      }
+
+      #day1_des{
+          margin-top: 4%;
+          margin-left: 5%;
+          font-size: 120%;
+      }
+
+      .desc_day2{
+          float: left;
+          font-size: 120%;
+      }
+
+      .day3{
+          width: 100%;
+      }
+
+      #fourth-page{
+          float: left;
+      }
+
+      #right-panel {
+        font-family: 'Roboto','sans-serif';
+        line-height: 30px;
+        padding-left: 10px;
+      }
+
+      #right-panel select, #right-panel input {
+        font-size: 15px;
+      }
+
+      #right-panel select {
+        width: 100%;
+      }
+
+      #right-panel i {
+        font-size: 12px;
+      }
+      #right-panel {
+        position: absolute;
+        height: 35%;
+        float: right;
+        margin-left: 63%;
+        margin-top: 1%;
+        width: 35%;
+        overflow: auto;
+      }
+
+      .suggestions{
+          width: 100%;
+          float: left;
+      }
+
+      .suggestions-form{
+        margin-top: 20%;
+      }
+
+      .sug-comments{
+          margin-bottom: 10%;
+      }
+
+      #myBtn {
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        margin-left: 2%;
+        z-index: 99;
+        font-size: 18px;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 15px;
+        border-radius: 4px;
+    }
+
+    ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: rgb(148, 147, 147)!important;
+    opacity: 1; /* Firefox */
+}
+      
+    #myBtn:hover {
+        background-color: #555;
+    }
+
+/* input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border-radius: 4px;
+} */
+
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+        background-color: rgb(236, 236, 236)
+      }

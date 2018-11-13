@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <title>Project 2 - Road Trip Online</title>
+    <meta charset="UTF-8">
+	<meta name="description" content="Project 2 for ATLS 4630 - Web Front End Development">
+	<meta name="keywords" content="HTML,CSS, JS">
+	<meta name="author" content="Ismael Garrido Mansoa">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.1/css/materialize.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <link href='./IMAGES' rel='stylesheet'>
+</head>
+<body onload="displayDb()">
+
+<!-- First Page -->
+<div class="center">
+
+    <h2 class="title-first text-bold">Thanksgiving Road Trip Planning</h2>
+    <p class="title-des grey-text text-darken-2">Planning webpage for the Thanksgiving Road Trip on East Canada</p>
+
+    <div id="names" class="grey-text text-darken-2">
+        <p>
+            Ismael Garrido<br>
+            Kensei Kitsu<br>
+            Raul Olmedo<br>
+            Toni Diaz<br>
+            Xavi Ruiz
+        </p>
+    </div>
+
+    <div id="user_authenticate">
+            <span id="user_status"> </span>
+            <button type="button" id="signin" class="waves-effect waves-light btn">Sign In</button>
+            <button type="button" id="signout" class="waves-effect waves-light btn">Sign Out</button>
+    </div>
+    
+    <div>
+        <button type="button" id="button-sug" class="waves-effect waves-light btn">Add Suggestions</button>
+        <button type="button" id="button-posted" class="waves-effect waves-light btn">See posted plans</button>
+    </div>
+
+
+    <button class="waves-effect waves-light btn join" id="joinus">Click here to join us!</button>
+
+    <div id="flecha">
+        <i class="large material-icons" id="scroll_mat">expand_more</i>
+    </div>
+
+</div>
+
+<!-- Second page -->
+<div class="day-pages">
+
+        <h2 class="title-first text-bold">Day 1</h2>
+        <p class="title-des grey-text text-darken-2">Flight to Detroit, Detroit-Toronto</p>
+
+    <div class="title-des row grey-text text-darken-2">
+        <p class="col s4">Isma, Xavi and Ken fly from Denver to Detroit</p>
+        <p class="col s4">Toni flies from Miami to Detroit</p>
+        <p class="col s4">Raul picks up the rental car in Grand <br> Rapids and drives to Detroit</p>
+    </div>
+</div>
+
+
+<div id="map" class="col s4"></div>
+<div id="map2" class="col s4"></div>
+<div id="map3" class="col s4"></div>
+
+<div class="row">
+    <p class="col s12 grey-text text-darken-2" id="day1_des">
+        We all meet at the Detroit Airport where Raul will pick us up with the car and we will visit the main things in the city and eat in a restaurant.<br>
+        After lunch, we will directly head to Toronto. The Airbnb where we are staying is in 44 Somerset Avenue. <br>
+        Once there, we will have dinner and visit Downtown. <br>
+    </p>    
+</div>
+
+<!-- Third page -->
+<div class="day-pages col s6">
+
+        <h2 class="title-first text-bold">Day 2</h2>
+        <p class="title-des grey-text text-darken-2">Full Day in Toronto</p>
+
+        <p class="desc_day2 grey-text text-darken-2">
+            We will wake up early in the morning <br>
+            to go to the Niagara Falls, where <br>
+            we will spend the whole morning. The <br>
+            drive there is about 2 hours depending <br>
+            on traffic. We will eat lunch there.
+        </p>
+</div>
+
+        <div id="map4" class="col s4"></div>
+        <div id="right-panel" class="col s4"></div>
+
+
+<div class="day-pages col s6">
+        <p class="desc_day2 grey-text text-darken-2">
+            After lunch, we will head back to Toronto, where we will be visiting the <br>
+            rest of Downtown and the Toronto Islands. We will have dinner at a <br>
+            restaurant, and we will go out to have some beers.
+        </p>
+</div>
+
+        <div id="map5" class="col s4"></div>
+
+    
+
+
+<!-- Fourth page -->
+<!-- <div class="day-pages col s12" id="fourth-page">
+
+        <h2 id="title-first" class="text-bold day3">Day 3</h2>
+        <p class="grey-text" id="title-des">Toronto to Ottawa</p>
+    
+</div> -->
+
+<!-- Fifth page -->
+<!-- <div class="day-pages">
+
+        <h2 id="title-first" class="text-bold">Day 4</h2>
+        <p class="grey-text" id="title-des">Ottawa full day - Montreal</p>
+    
+</div> -->
+
+<!-- Sixth page -->
+<!-- <div class="day-pages">
+
+        <h2 id="title-first" class="text-bold">Day 5</h2>
+        <p class="grey-text" id="title-des">Full day Montreal</p>
+    
+</div> -->
+
+<!-- Seventh page -->
+<!-- <div class="day-pages">
+
+        <h2 id="title-first" class="text-bold">Day 6</h2>
+        <p class="grey-text" id="title-des">Montreal - Toronto</p>
+    
+</div> -->
+
+<!-- Eigth page -->
+<!-- <div class="day-pages">
+
+        <h2 id="title-first" class="text-bold">Day 7</h2>
+        <p class="grey-text" id="title-des">Toronto - Detroit and back</p>
+    
+</div> -->
+
+
+<!-- Suggestions page -->
+<div class="day-pages">
+
+        <h2 class="title-first text-bold suggestions">Suggestions & Ideas</h2>
+        <p class="title-des grey-text text-darken-2 suggestions sug-comments">Comment here any ideas for restaurants, bars and places to visit</p>
+
+    <div class="suggestions-form">
+             <form id="suggestions">
+            <fieldset>
+                <select id="form-person" name="Who are you?">
+                        <option value="" disabled selected>Who are you?</option>
+                        <option value="Isma">Isma</option>
+                        <option value="Ken">Ken</option>
+                        <option value="Xavi">Xavi</option>
+                        <option value="Raul">Raul</option> 
+                        <option value="Toni">Toni</option>
+                </select>
+                <select id="form-city" name="city">
+                        <option value="" disabled selected>Select city</option>
+                        <option value="Toronto">Toronto</option>
+                        <option value="Ottawa">Ottawa</option>
+                        <option value="Quebec">Quebec</option>
+                        <option value="Montreal">Montreal</option> 
+                </select>
+                <select id="form-type" name="type">
+                        <option value="" disabled selected>Restaurant/Club/Tourism</option>
+                        <option value="Restaurant">Restaurant</option>
+                        <option value="Club">Club</option>
+                        <option value="Tourism">Tourism</option>
+                </select>
+                <input id="form-desc" type="text" name="Description" placeholder="Description">
+                <br><br>
+                <button id="send-ideas" class="btn-large green" name="Send Ideas">Send Ideas</button>
+            </fieldset>
+            </form>
+            
+    </div>
+    
+</div>
+
+
+<!-- Database output page -->
+<div class="day-pages">
+
+        <h2 class="title-first text-bold">Posted Suggestions & Ideas</h2>
+        <p class="title-des grey-text text-darken-2">Requested plans for the trip</p>
+
+    <div >
+        <table id="table-suggestions" class="striped centered responsive-table">
+                <thead>
+                  <tr>
+                      <th>City</th>
+                      <th>Type of Plan</th>
+                      <th>Requester</th>
+                      <th>Description</th>
+                  </tr>
+                </thead>
+        
+                <tbody id="db-list">
+                  <tr>
+                    <td>Toronto</td>
+                    <td>Restaurant</td>
+                    <td>Isma</td>
+                    <td>Burger King</td>
+                  </tr>
+                  <tr>
+                    <td>Quebec</td>
+                    <td>Tourism</td>
+                    <td>Ken</td>
+                    <td>Quebec city Downtown</td>
+                  </tr>
+                  <tr>
+                    <td>Ottawa</td>
+                    <td>Club</td>
+                    <td>Toni</td>
+                    <td>Kapital Club</td>
+                  </tr>
+
+                </tbody>
+              </table>
+    </div>
+    
+</div>
+
+<br>
+
+<button class="grey darken-1 white-text" id="myBtn" title="Go to top">Top</button>
+
+
+      <!-- Firebase -->
+      <script src="https://www.gstatic.com/firebasejs/5.5.6/firebase.js"></script>
+      <script>
+        // Initialize Firebase
+        var config = {
+            apiKey: "AIzaSyDh56LI7zhwmMfvfqy9mciDWUuxftkRPQA",
+            authDomain: "roadtriponline-c5060.firebaseapp.com",
+            databaseURL: "https://roadtriponline-c5060.firebaseio.com",
+            projectId: "roadtriponline-c5060",
+            storageBucket: "roadtriponline-c5060.appspot.com",
+            messagingSenderId: "871377412972"
+        };
+
+        firebase.initializeApp(config);
+      </script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-alpha.1/js/materialize.min.js"></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAmDC232tZRXSmWbRjw_wUcwwfl_HC45ZA&language=en&callback=initMap" async defer></script>
+      <script src="script.js"></script>     
+</body>
+</html> 
+
+
+
+
