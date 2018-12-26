@@ -378,6 +378,84 @@
     </div>
 
 
+    <h3 class="journal_milestone">Project 3 milestone 2:</h3>
+
+    <div class="journal_text">
+        Regarding the design iteration, we chose to iterate on our pseudo code to ensure we were incorporating changing data. We additionally developed
+        the images that will be used in our display.  <br><br>
+        
+        <img src="IMAGES/whales_world.png" class="onePlusImages" alt="whales_world" id="center">
+        
+        The icons are custom-ish, many of them based off of other icons found online, but then appropriate to fit our needs. <br><br>
+
+        <img width="30%" src="IMAGES/asset2.png" alt="asset2" id="center">
+        <img width="30%" src="IMAGES/asset3.png" alt="asset3" id="center">
+        <img width="30%" src="IMAGES/asset4.png" alt="asset4" id="center">
+        <img width="30%" src="IMAGES/asset5.png" alt="asset5" id="center">
+        <img width="30%" src="IMAGES/asset6.png" alt="asset6" id="center">
+        <img width="30%" src="IMAGES/asset7.png" alt="asset7" id="center"> <br><br>
+
+        <b>Roadblocks // challenges:</b> Here, we encountered the issue of scope with React. Being an extremely extensive framework, many of the projects
+        could simply be complete with JS or Jquery with my less of a headache. Other issues included determining how to link all of the component pieces
+        together, and determining what was a component and where it needed to go - especially since we’re strong-arming React into the app, it’s less obvious
+        what are supposed to be components. <br><br>
+        
+        <b>Description of Flow/Functionality:</b> When the user lands on the home page, there will be 6 icons with different whales displayed. When the user
+        clicks on a whale, a pop-like display window will appear with additional information about the particular whale which will include its name, latin name,
+        description, lifespan, size, population size, and migration patterns.  On the pop up window, there will be firstly a button to close out of it and
+        click another whale. if time permits, we will implement a button which will scroll through and array of whale- objects within the pop up, so that
+        the user does not need to close out to dynamically change the data displayed. <br><br>
+        
+        <b>Static:</b> See the github repo <a href="https://github.com/maysgar/whales_react">here</a> or, a screenshot of the local host running the static
+        build. you can see that the information windows and buttons do not have states yet. <br><br>
+
+        <img src="IMAGES/whales_esquema.png" class="onePlusImages" alt="whales_esquema" id="center">
+
+        <b>Component Hierarchy: </b><br><br>
+        <b>Main page:</b><br>
+            Icons in an array (array of images: onclick=> imgArrayIndex = whaleObjecttInputCall <br>
+            &emsp;- Display Window: WhaleComponentDisplay whaleObjectIndex (as input from onClick imgArrayIndex). <br>
+            &emsp;- onClick next: whaleObjectIndex = whaleObjectIndex+1 <br>
+            &emsp;- display changes to next whaleObje <br>
+            &emsp;- ct in whaleObjectArray <br><br>
+
+        <b>Display Window:</b><br>
+            &emsp;- when state = true, will display information from whaleObject at index of onClick input. <br>
+            &emsp;- when state = false, will be hidden. <br><br>
+
+        <b>Team + Responsibilities:</b><br>
+            &emsp;- Isma G: will creaet whaleObject with corresponding date form team-compiled data sheet on a <br> &emsp;GoogleDoc. <br>
+            &emsp;- Laura M: will create whaleHouse, the component which will display the whaleObject parts determined by <br>&emsp; click index css. <br>
+            &emsp;- Ben Vernon: will compile the two together onto the display inside the browser.
+        
+        <br><br><br>
+    </div>
+
+
+    <h3 class="journal_milestone">Project 3 milestone 4:</h3>
+        <div class="journal_text">
+            Regarding the "Whales World" project, I am very happy about how everything turned out and what we achieved.<br>
+            First of all, this is the only project in the course that we have done in groups, and not individually like the rest of them. For me, this was a good thing,
+            since it is way easier to make something work or to fix something when there is 3 people working on it, and more perspectives, solutions and imagination to aproach it.<br><br>
+            At first, I have to say I was a bit scared, since I don't know any of my classmates well and I don't usually talk to them in class, and I didn't know how the groups were going
+            to go and how I was going to fit in it. I am a Computer Science major, and I believe I'm not as creative as my classmates are, so I was also scared about not meeting the
+            expectations of my teammates if I had to do any design. <br><br>
+            However, all this went really really well and I'm really happy with my team. On the first work day, right after the professor announced the project, Laura and Ben instantly proposed
+            me to take part on their team. They made me feel very comfortable. And then, Laura had a lot of good ideas to do the project and she was very dynamic and fast-working to get us started. 
+            Also, she worked very hard on making the design of the page and also drawing the whale icons we have at our homepage. <br><br>
+            Then, regarding the coding, we had it all figured out on our second work day, which was great because it was almost finals week and I was scared about having to spend a lot of time working
+            on the website and taking time from studying other subjects.<br>
+            However, our ideas for the implementation were very clear, and Ben and I structured really well how to make React useful with our two main components.<br><br>
+            While Laura was working mostly on the CSS and design of the webpage, Ben and I worked on the back-end React code and connecting the icons of the main page with the pop-up cards. 
+            We went home that day having a stable version of our code with that functionality working. So after that, we all knew very well what we had to do to completely build our project.
+            Then, on the last Work day, all we did was connecting our versions of the code together, make sure everything was working exactly how we wanted, and then uploading it to the server.
+            So, overall, we calculated the time we had very well and we organized our work very clearly as well.<br><br> 
+
+            To end, regarding what went wrong, as some of our classmates said during the presentation, the pop-ups were probably to big on the screen. I wish we had thought more about that and made them smaller.<br><br>
+        
+        </div>
+
+
     </div>
 </nav-section>
     
